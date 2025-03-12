@@ -6,3 +6,27 @@ body {
     padding: 0;
 }
 
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Search Bar */
+#search {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/*Destination Cards Layout */
