@@ -1,11 +1,11 @@
-document.addEventListener("DOMContentLoaded",c() => {
+document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const destinationId = urlParams.get("id");
+    const destinationId = parseInt(urlParams.get("id"));
 
     fetch("destinations.json")
         .then(response => response.json())
         .then(data => {
-            const destination = data.find(dest => dest.id == destinationId);
+            const destination = data.find(dest => dest.id === destinationId);
             if (!destination) {
                 document.body.innerHTML = "<h2>Destination not found</h2>";
                 return;

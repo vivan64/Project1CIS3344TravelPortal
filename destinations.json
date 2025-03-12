@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Paris, France",
+        "image": "paris.jpg",
+        "description": "The city of lights and love, famous for its art, fashion, and landmarks.",
+        "details": {
+            "long_description": "Paris, the capital of France, is known for its iconic Eiffel Tower, world-class museums like the Louvre, and charming cafés.",
+            "itinerary": [
+                "Day 1: Arrive in Paris, visit the Eiffel Tower, and explore the Seine River.",
+                "Day 2: Discover the Louvre Museum and stroll through the Champs-Élysées.",
+                "Day 3: Visit Montmartre, Sacré-Cœur Basilica, and enjoy a Seine river cruise."
+            ]
+        },
+        "location": {
+            "latitude": 48.8566,
+            "longitude": 2.3522
+        }
+    }
+]
