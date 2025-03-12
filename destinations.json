@@ -16,5 +16,23 @@
             "latitude": 48.8566,
             "longitude": 2.3522
         }
+    },
+    {
+        "id": 2,
+        "name": "Kyoto, Japan",
+        "image": "images/kyoto.jpg",
+        "description": "A city of temples and tradition, where the past meets the present.",
+        "details": {
+            "long_description": "Kyoto, Japan's cultural heart, is home to ancient temples, stunning gardens, and traditional tea houses.",
+            "itinerary": [
+                "Day 1: Visit Fushimi Inari Shrine and explore Gion district.",
+                "Day 2: Tour Kinkaku-ji (Golden Pavilion) and Arashiyama Bamboo Forest.",
+                "Day 3: Experience a traditional tea ceremony and visit Nijo Castle."
+            ]
+        },
+        "location": {
+            "latitude": 35.0116,
+            "longitude": 135.7681
+        }
     }
 ]
