@@ -34,5 +34,23 @@
             "latitude": 35.0116,
             "longitude": 135.7681
         }
+    },
+    {
+        "id": 3,
+        "name": "New York City, USA",
+        "image": "images/nyc.jpg",
+        "description": "The city that never sleeps, full of skyscrapers, Broadway, and Central Park.",
+        "details": {
+            "long_description": "New York City is a melting pot of cultures and entertainment, featuring Times Square, the Statue of Liberty, and world-class museums.",
+            "itinerary": [
+                "Day 1: Visit Times Square, Broadway, and the Empire State Building.",
+                "Day 2: Explore Central Park, the Metropolitan Museum of Art, and 5th Avenue shopping.",
+                "Day 3: Take a ferry to the Statue of Liberty and enjoy a skyline view from Brooklyn Bridge."
+            ]
+        },
+        "location": {
+            "latitude": 40.7128,
+            "longitude": -74.0060
+        }
     }
 ]
