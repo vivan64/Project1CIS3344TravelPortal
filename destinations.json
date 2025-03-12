@@ -52,5 +52,23 @@
             "latitude": 40.7128,
             "longitude": -74.0060
         }
+    },
+    {
+        "id": 4,
+        "name": "Santorini, Greece",
+        "image": "images/santorini.jpg",
+        "description": "Famous for its white-washed buildings, blue domes, and stunning sunsets.",
+        "details": {
+            "long_description": "Santorini is a Greek island known for its picturesque villages, volcanic beaches, and breathtaking caldera views.",
+            "itinerary": [
+                "Day 1: Explore Fira and Oia, watch the sunset at Oia Castle.",
+                "Day 2: Visit the ancient ruins of Akrotiri and relax on the Red Beach.",
+                "Day 3: Enjoy a sailing tour of the volcanic islands and hot springs."
+            ]
+        },
+        "location": {
+            "latitude": 36.3932,
+            "longitude": 25.4615
+        }
     }
 ]
