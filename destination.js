@@ -21,5 +21,18 @@ document.addEventListener("DOMContentLoaded",c() => {
                 li.innerText = item;
                 itineraryList.appendChild(li);
             });
+
+            const map = L.map('map').setView([destination.location.latitude, destination.location.longitude], 12);
+            L.titleLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: '© OpenStreetMap'}).addTo(map);
+            L.marker([destination.location.latitude, destination.location.longitude]).addTo(map)
+                .bindPopup(destination.name)
+                .openPopup();
         })
-})
+        .catch(error => console.error("Error loading details:", error));
+});
+
+document.getElementById("booking-form").addEventListener("submit", function(event){
+    event.preventDefault();
+    alert("Tour Booked!");
+    this.reset();
+});
