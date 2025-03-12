@@ -22,5 +22,20 @@ function displayDestinations(destination) {
             <p>${destination.description}</p>
             <button onclick="goToDetails(${destination.id})">View Details</button>
             `;
-    })
+
+            container.appendChild(card);
+    });
+}
+
+function goToDetails(id) {
+    window.location.href = `destination.html?id=${id}`;
+}
+
+function filterDestinations() {
+    const query = document.getElementById("search").value.toLowerCase();
+    const filteredData = window.destinationsData.filter(dest =>
+        dest.name.toLowerCase().includes(query)
+    );
+
+    displayDestinations(filteredData);
 }
