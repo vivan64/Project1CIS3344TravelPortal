@@ -70,5 +70,23 @@
             "latitude": 36.3932,
             "longitude": 25.4615
         }
+    },
+    {
+        "id": 5,
+        "name": "Cairo, Egypt",
+        "image": "images/cairo.jpg",
+        "description": "Home to the Pyramids of Giza, ancient temples, and vibrant bazaars.",
+        "details": {
+            "long_description": "Cairo, the capital of Egypt, offers a mix of ancient wonders like the Great Pyramids and vibrant city life.",
+            "itinerary": [
+                "Day 1: Visit the Pyramids of Giza and the Sphinx.",
+                "Day 2: Explore the Egyptian Museum and the Khan el-Khalili bazaar.",
+                "Day 3: Cruise the Nile River and visit the Mosque of Muhammad Ali."
+            ]
+        },
+        "location": {
+            "latitude": 30.0444,
+            "longitude": 31.2357
+        }
     }
 ]
