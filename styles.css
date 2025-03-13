@@ -82,3 +82,27 @@ header h1 {
 .destination-card button:hover {
     background: #0056b3;
 }
+
+/* Destination Details Page */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#destination-image {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#destination-description {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #444;
+}
