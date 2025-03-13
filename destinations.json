@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Paris, France",
-        "image": "paris.jpg",
+        "image": "images/paris.jpg",
         "description": "The city of lights and love, famous for its art, fashion, and landmarks.",
         "details": {
             "long_description": "Paris, the capital of France, is known for its iconic Eiffel Tower, world-class museums like the Louvre, and charming cafés.",

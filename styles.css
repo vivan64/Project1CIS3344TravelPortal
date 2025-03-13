@@ -113,20 +113,20 @@ h3 {
     padding: 0;
 }
 
-#itinerary-list li{
+#itinerary-list li, #location-details p {
     background: #f8f8f8;
-    margin: 5px auto;
+    margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
-    max-width: 600px;
+    font-size: 16px;
+    color: black;
 }
 
 /* Map Styling */
 #map {
     height: 400px;
-    width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
+    width: 100%;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
