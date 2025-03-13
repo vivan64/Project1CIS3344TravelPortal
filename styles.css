@@ -59,3 +59,26 @@ header h1 {
     border-radius: 10px;
 }
 
+.destination-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.destination-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.destination-card button {
+    padding: 10px 15px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.destination-card button:hover {
+    background: #0056b3;
+}
