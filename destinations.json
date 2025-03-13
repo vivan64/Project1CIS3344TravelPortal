@@ -88,5 +88,114 @@
             "latitude": 30.0444,
             "longitude": 31.2357
         }
+    },
+    {
+        "id": 6,
+        "name": "Dubai, UAE",
+        "image": "images/dubai.jpg",
+        "description": "A modern city of skyscrapers, luxury shopping, and desert adventures.",
+        "details": {
+            "long_description": "Dubai is known for its ultramodern architecture, including the Burj Khalifa, luxury shopping, and exciting desert safaris.",
+            "itinerary": [
+                "Day 1: Visit Burj Khalifa and Dubai Mall.",
+                "Day 2: Explore the Palm Jumeirah and relax at JBR Beach.",
+                "Day 3: Experience a desert safari with dune bashing and camel rides."
+            ]
+        },
+        "location": {
+            "latitude": 25.276987,
+            "longitude": 55.296249
+        }
+    },
+    {
+        "id": 7,
+        "name": "Mumbai, India",
+        "image": "images/mumbai.jpg",
+        "description": "The financial capital of India, a mix of colonial history, Bollywood, and vibrant street life.",
+        "details": {
+            "long_description": "Mumbai is India's entertainment and financial hub, known for the Gateway of India, Marine Drive, and Bollywood film industry.",
+            "itinerary": [
+                "Day 1: Visit the Gateway of India and Elephanta Caves.",
+                "Day 2: Explore Marine Drive, Chowpatty Beach, and enjoy street food.",
+                "Day 3: Tour Bollywood studios and shop at Colaba Causeway."
+            ]
+        },
+        "location": {
+            "latitude": 19.0760,
+            "longitude": 72.8777
+        }
+        
+    },
+    {
+        "id": 8,
+        "name": "Cape Town, South Africa",
+        "image": "images/capetown.jpg",
+        "description": "A city of breathtaking landscapes, Table Mountain, and rich history.",
+        "details": {
+            "long_description": "Cape Town is known for its stunning beaches, the iconic Table Mountain, and its connection to Nelson Mandela's legacy.",
+            "itinerary": [
+                "Day 1: Hike or take a cable car up Table Mountain.",
+                "Day 2: Visit Robben Island and learn about Nelson Mandela.",
+                "Day 3: Explore Cape Point and Boulders Beach to see penguins."
+            ]
+        },
+        "location": {
+            "latitude": -33.9249,
+            "longitude": 18.4241
+        }
+    },
+    {
+        "id": 9,
+        "name": "Rome, Italy",
+        "image": "images/rome.jpg",
+        "description": "A city of ancient wonders, home to the Colosseum and Vatican City.",
+        "details": {
+            "long_description": "Rome, the heart of Italy, offers breathtaking landmarks such as the Colosseum, Trevi Fountain, and the Vatican.",
+            "itinerary": [
+                "Day 1: Explore the Colosseum and Roman Forum.",
+                "Day 2: Visit Vatican City and the Sistine Chapel.",
+                "Day 3: Enjoy authentic Italian cuisine in Trastevere."
+            ]
+        },
+        "location": {
+            "latitude": 41.9028,
+            "longitude": 12.4964
+        }
+    },
+    {
+        "id": 10,
+        "name": "Sydney, Australia",
+        "image": "images/sydney.jpg",
+        "description": "Famous for the Sydney Opera House and Bondi Beach.",
+        "details": {
+            "long_description": "Sydney is Australia's largest city, known for its stunning harbor, iconic Opera House, and golden beaches.",
+            "itinerary": [
+                "Day 1: Visit the Sydney Opera House and Harbor Bridge.",
+                "Day 2: Explore Bondi Beach and take the coastal walk to Coogee.",
+                "Day 3: Visit Taronga Zoo and enjoy a sunset cruise."
+            ]
+        },
+        "location": {
+            "latitude": -33.8688,
+            "longitude": 151.2093
+        }
+    },
+    {
+        "id": 11,
+        "name": "Rio de Janeiro, Brazil",
+        "image": "images/rio.jpg",
+        "description": "A city of beautiful beaches, samba music, and Christ the Redeemer.",
+        "details": {
+            "long_description": "Rio de Janeiro is famous for its vibrant culture, stunning beaches, and the iconic Christ the Redeemer statue.",
+            "itinerary": [
+                "Day 1: Visit Christ the Redeemer and Sugarloaf Mountain.",
+                "Day 2: Enjoy Copacabana and Ipanema Beach.",
+                "Day 3: Experience the nightlife in Lapa and attend a samba show."
+            ]
+        },
+        "location": {
+            "latitude": -22.9068,
+            "longitude": -43.1729
+        }
     }
 ]
