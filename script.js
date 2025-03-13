@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("destination.json")
+    fetch("destinations.json")
     .then(response => response.json())
     .then(data => {
         displayDestinations(data);
